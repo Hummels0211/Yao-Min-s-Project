@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import csv
-p1 = open("C:\Users\giaccoyu\Desktop\Photos\Seedlings\Yao-Min's Project\MV_GTFG_1.csv")
-p2 = open("C:\Users\giaccoyu\Desktop\Photos\Seedlings\Yao-Min's Project\MV_GTFG_2.csv")
+p1 = open("C:\Users\giaccoyu\Desktop\Photos\Seedlings\Yao-Min's Project\MV_GTFG_1.csv") #Change the path of the csv file
+p2 = open("C:\Users\giaccoyu\Desktop\Photos\Seedlings\Yao-Min's Project\MV_GTFG_2.csv") #The same with the previous one
 
 HighMV = csv.reader(p1)
 LowMV = csv.reader(p2)
